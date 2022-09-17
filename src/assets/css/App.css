@@ -1,0 +1,40 @@
+body {
+  background-color: purple;
+}
+
+.App {
+  text-align: center;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.card {
+  width: 60%;
+}
+
+.card-title {
+  position: absolute;
+  padding: 1.25rem;
+}
+
+.card-date {
+  position: absolute;
+  padding: 1.25rem;
+  margin-top: 60px;
+  right: 0;
+}
+
+.card-temp {
+  position: absolute;
+  padding-left: 1.25rem;
+  margin-top: 16.25rem;
+  font-size: 3.125rem;
+}
+
+.card-desc {
+  position: absolute;
+  padding-left: 1.25rem;
+  margin-top: 20.25rem;
+}
