@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Weather App
 
-> This is a weather app that allows you to search for a city and get the current weather information for that city.
+> This is a weather app that allows you to search for a city and get the current weather information,
 Get all the information you need to plan your day. The app displays the current temperature, the weather description, the humidity, the wind speed, and the pressure.
 
 <br>
