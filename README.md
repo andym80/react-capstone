@@ -6,9 +6,13 @@ Get all the information you need to plan your day. The app displays the current 
 
 <br>
 <br>
-
+APP LINK:(https://stalwart-douhua-4333c3.netlify.app)
 DEMO VIDEO LINK
+
+
 (https://www.loom.com/share/86b4510f4fca418dbfdd49d724972e87)
+
+
 ## Built With
 
 <br>
@@ -65,7 +69,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to **Nelson Sakwa** the author of the original design, as required by the Creative Commons License.appropriate credit to **Nelson Sakwa the author of the original design, as required by the Creative Commons License
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 <br>
