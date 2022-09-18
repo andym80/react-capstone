@@ -1,25 +1,27 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
-import React from "react";
-import Spinner from "./Spinner";
+import React from 'react';
+import Spinner from './Spinner';
 
-const Card = ({ loadingData, showData, weather, forecast }) => {
+const Card = ({
+  loadingData, showData, weather, forecast,
+}) => {
   const today = new Date();
   const day = today.getDate();
   const month = today.getMonth() + 1;
   const year = today.getFullYear();
   const date = `${day}/${month}/${year}`;
 
-  let url = "";
-  let iconUrl = "";
+  let url = '';
+  let iconUrl = '';
 
   if (loadingData) {
     return <Spinner />;
   }
 
   if (showData) {
-    url = "https:openweathermap.org/img/w/";
-    iconUrl = "url + weather.weather[0].icon} +.png";
+    url = 'https:openweathermap.org/img/w/';
+    iconUrl = 'url + weather.weather[0].icon} +.png';
 
     iconUrl = `${url + forecast.list[1].weather[0].icon}.png`;
     iconUrl = `${url + forecast.list[2].weather[0].icon}.png`;
@@ -69,7 +71,8 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
                   </h5>
                   <h5 className="card-text">
                     Humidity:
-                    {weather.main.humidity}%
+                    {weather.main.humidity}
+                    %
                   </h5>
                   <h5 className="card-text">
                     Wind Speed:
