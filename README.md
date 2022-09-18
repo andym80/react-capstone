@@ -8,7 +8,7 @@ Get all the information you need to plan your day. The app displays the current 
 <br>
 
 DEMO VIDEO LINK
-(https://www.loom.com/share/86b4510f4fca418dbfdd49d724972e87)
+![](https://www.loom.com/share/86b4510f4fca418dbfdd49d724972e87)
 ## Built With
 
 <br>
