@@ -6,6 +6,7 @@ const Form = ({ newLocation }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    // eslint-disable-next-line no-console
     console.log({ city });
     if (city === '' || !city) return;
 
