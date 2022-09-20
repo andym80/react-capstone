@@ -28,7 +28,6 @@ const WeatherPanel = () => {
         return response.json();
       })
       .then((weatherData) => {
-        console.log(weatherData);
         setWeather(weatherData);
         setLoading(false);
         setShow(false);
@@ -50,7 +49,6 @@ const WeatherPanel = () => {
         setShow(true);
       })
       .catch((error) => {
-        console.log(error);
         setShow(false);
       });
   };

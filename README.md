@@ -7,6 +7,8 @@ Get all the information you need to plan your day. The app displays the current 
 <br>
 <br>
 APP LINK:(https://stalwart-douhua-4333c3.netlify.app)
+
+<br>
 DEMO VIDEO LINK
 
 
