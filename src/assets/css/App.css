@@ -1,7 +1,3 @@
-body {
-  background-color: purple;
-}
-
 .App {
   text-align: center;
 }
@@ -37,4 +33,67 @@ body {
   position: absolute;
   padding-left: 1.25rem;
   margin-top: 20.25rem;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/7134998/pexels-photo-7134998.jpeg?cs=srgb&dl=pexels-gradienta-7134998.jpg&fm=jpg);
+  background-size: cover;
+  background-position: center;
+  animation: color-change 120s linear infinite;
+  animation-delay: 10s;
+}
+
+/* adding rain img and making opacity 0 */
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.pexels.com/photos/7134998/pexels-photo-7134998.jpeg?cs=srgb&dl=pexels-gradienta-7134998.jpg&fm=jpg);
+  animation: rain 120s linear infinite;
+  opacity: 0;
+}
+
+/* just changing the position of image
+		of rain using keyframes */
+@keyframes rain {
+  0% {
+    background-position: 0 0;
+    opacity: 1;
+  }
+
+  100% {
+    background-position: 8% 80%;
+    opacity: 1;
+  }
+}
+
+/* applying filter at different angle
+		on diffrent interval using keyframe */
+@keyframes color-change {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.temp {
+  margin-right: 12px;
+}
+
+.player {
+  display: none;
 }
